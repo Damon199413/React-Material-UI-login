@@ -1,0 +1,185 @@
+.App {
+    min-height: 100%;
+    min-width: 1024px;
+    padding: 30px;
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: 100%;
+
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.header {
+    font-family: Poppins !important;
+}
+.textField {
+    font-family: Mulish !important;
+}
+
+.logo {
+    width: 225px;
+    height: 61px;
+    margin: auto;
+    margin-top: 74px
+}
+
+h3 {
+    color: #c7c6c6;
+    font-family: Mulish !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0;
+    line-height: 174.02%;
+    /* or 31px */
+
+    align-items: center;
+    text-align: center;
+}
+
+h4 {
+    font-family: Mulish !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 174.02%;
+    /* or 28px */
+    margin: 0px;
+    text-align: center;
+
+    /* Text 3 */
+
+    color: #8A94A6;
+}
+
+.google-sign {
+    width: 352px;
+    height: 58px;
+    align-items: center;
+    justify-content: center;
+    /* Component-BG */
+    background: #F7F9FB;
+    border-radius: 15px;
+    display: flex;
+    border: none;
+    padding: 0px !important;
+}
+
+h1 {
+    margin: 0px;
+}
+.google-icon {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        // margin-right: 8px;
+        width: 21px;
+        height: 21px;
+    }
+    /* Primary 1 */
+
+}
+
+.google-text {
+    width: 160px;
+    height: 21px;
+    left: 657px;
+    top: 372px;
+
+    /* Text/Small 1 - 16px */
+
+    font-family: Mulish !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 174.02%;
+    /* or 28px */
+
+    display: flex;
+    align-items: center;
+
+    /* Text 4 */
+
+    color: #B0B7C3;
+}
+
+.google-bottom {
+    padding-top: 16px;
+    color: #c7c6c6;
+    font-family: Mulish !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 174.02%;
+    /* or 31px */
+
+    align-items: center;
+    text-align: center;
+}
+
+.forget_pw {
+    font-weight: 500;
+    text-align: center;
+    justify-content: center;
+    margin-top: 6px;
+
+    .title {
+        color: #868585;
+        margin-right: 3px;
+    }
+
+    .a {
+        color: #3e8cff;
+    }
+}
+
+.term {
+    font-family: Mulish !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px !important;
+    line-height: 174.02%;
+    /* or 24px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    /* Text 3 */
+
+    color: #8A94A6;
+    margin-top: 110px !important;
+
+    span {
+        color: #868585;
+    }
+
+    a {
+        color: #3e8cff;
+    }
+}
+
+.footer {
+    font-weight: 500;
+    margin: 36px 0;
+    justify-content: center;
+    text-align: center;
+
+    span {
+        color: #868585;
+    }
+
+    a {
+        color: #3e8cff;
+    }
+}
+
+.verify-email {
+    margin-top: 44px;
+}
+
